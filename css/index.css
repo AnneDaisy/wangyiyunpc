@@ -1,0 +1,168 @@
+/* 导航栏 */
+.m-top{
+    position: relative;
+    width:auto ;
+    height: 70px;
+    background: #242424;
+    }
+.m-top .wrap{
+    width: 1100px;
+    margin: 0 auto;
+    height: 70px;
+    
+}
+.h1-logo{
+    float: left;
+    width: 176px;
+    height: 69px;
+    background-image: url('../img/topbar-logo.png') ;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+/* 发现音乐等区块 */
+.m-top ul.navWrap{
+    float: left;
+}
+.m-top ul.navWrap li{
+    float: left;
+    padding:0 19px ;
+    text-align: center;
+    line-height: 70px;
+    color: #ccc;
+    cursor: pointer;
+    font-size:14px;
+}
+.m-top ul.navWrap li.z-slt{
+    background: #000;
+    text-decoration: none;
+    color: #fff;
+}
+.m-top ul.navWrap li:hover{
+    background: #000;
+    text-decoration: none;
+    color: #fff;
+}
+/* 搜索框 */
+.m-top .music-search{
+    float: right;
+    width: 158px;
+    height: 32px; 
+    margin-top: 19px;
+    background-position: 0 -99px;
+    background-color: #fff;
+    border-radius: 32px;
+    background-image: url('../img/topbar.png');
+}
+.music-search input.searchInput{
+    width: 75%;
+    padding: 0;
+    color: #333;
+    line-height: 16px;
+    margin: 7px 0 0 30px;
+}
+.music-search label{
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 27px;
+    width: 90%;
+    color: #9b9b9b;
+    cursor: text;
+    font-size:12px;
+}
+.creator{
+    float: right;
+    width: 90px;
+    height: 32px;
+    margin: 19px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    border: 1px solid #4F4F4F;
+    background-position: 0 -140px;
+    line-height: 33px;
+    color: #ccc;
+    border-radius: 20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.creator:hover{
+    border: 1px solid #f8f5f5;
+}
+.loginBtn{
+    float: right;
+    height: 45px;
+    margin: 29px 0 0 20px;
+    padding: 0 22px 0 0;
+    background-position: right -47px;
+    background-image: none;
+    color: #787878;
+    font-size: 12px;
+}
+
+/* 副导航栏 */
+.subNavWrap{
+    width: 100%;
+    height:35px ;
+    box-sizing: border-box;
+    background-color: #C20C0C;
+    border-bottom: 1px solid #a40011;
+}
+.subNavWrap .wrap{
+    width: 1100px;
+    height: 34px;
+    margin: 0 auto;
+}
+.subNavWrap .wrap ul{
+    padding-left:180px ;
+}
+.subNavWrap .wrap li{
+    float:left;
+    color:#fff;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    top:10px ;
+    height: 34px;
+   
+}
+.subNavWrap .wrap li em{
+    height: 20px;
+    border-radius: 20px;
+    padding: 0px 13px;
+    margin: 2px 17px 0;
+    cursor: pointer;
+}
+.subNavWrap .wrap li:hover em{
+    height: 20px;
+    border-radius: 20px;
+    padding: 0px 13px;
+    margin: 2px 17px 0;
+    background: #9B0909;
+}
+.subNavWrap .wrap li em.selectBg {
+    height: 20px;
+    border-radius: 20px;
+    padding: 0px 13px;
+    margin: 2px 17px 0;
+    background: #9B0909;
+}
+
+/* banner区 */
+.banner{
+    width: 100%;
+    height: 285px;
+    background-color: #e48888;
+}
+.banner .wrap{
+   width: 982px;
+   height:285px;
+   margin:0 auto ;
+   position: relative;
+}
+.banner .wrap img{
+    display: block;
+    width: 730px;
+}
+
+
+/*  */
